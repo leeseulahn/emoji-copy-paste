@@ -4,9 +4,17 @@ import Script from "next/script";
 import "./globals.css";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Emoji Copy Paste",
-  description: "Full emoji copy & paste tool",
+export const metadata = {
+  title: "Emoji Copy Paste | Free Emoji Tool",
+  description: "Copy and paste emojis instantly. Search, combine, and use emojis for Instagram, TikTok, Discord, and more.",
+  keywords: [
+    "emoji copy",
+    "emoji paste",
+    "emoji generator",
+    "emoji combiner",
+    "emoji kitchen",
+    "free emoji tool"
+  ],
   verification: {
     google: "UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4",
   },
