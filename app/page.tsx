@@ -387,7 +387,10 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-
+<a href="/emoji-combiner">Emoji Combiner</a>
+<a href="/emoji-kitchen">Emoji Kitchen</a>
+<a href="/instagram-emoji">Instagram Emoji</a>
+      
       {toast && <div className="toast">{toast}</div>}
     </main>
   );
