@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import "./globals.css";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Emoji Copy Paste",
-  description:
-    "Browse emoji categories and click any emoji to copy instantly for social media, captions, messages, and design work.",
+  description: "Full emoji copy & paste tool",
+  verification: {
+    google: "UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4",
+  },
 };
+ 
 
 export default function RootLayout({
   children,
@@ -15,13 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <meta
-          name="google-site-verification"
-          content="UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4"
-        />
-      </head>
+    <html lang="en"> 
       <body>
         <Script
           id="adsense-script"
