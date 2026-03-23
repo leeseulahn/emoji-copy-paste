@@ -332,6 +332,112 @@ export default function HomePage() {
             )}
           </div>
 
+          <div className="section mt-24" id="about">
+  <h2 className="section-title">About Emoji Copy and Paste</h2>
+  <div className="info-list">
+    <div className="info-item">
+      <p className="info-text">
+        Emoji Copy and Paste is a free tool that helps you quickly find, copy,
+        and use emojis for social media, messaging apps, blogs, and online
+        communities. Instead of searching through your phone keyboard or
+        switching between devices, you can browse popular emoji categories,
+        search by keyword, and copy any emoji with one click.
+      </p>
+      <p className="info-text mt-12">
+        Emojis are widely used to add emotion, tone, and personality to digital
+        communication. They can make captions feel more natural, help messages
+        feel friendlier, and improve visual engagement in posts, comments, and
+        profiles. This tool is designed to make emoji access simple on desktop
+        and mobile.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className="section mt-24" id="why-emojis">
+  <h2 className="section-title">Why people use emojis</h2>
+  <div className="info-list">
+    <div className="info-item">
+      <p className="info-title">Better expression</p>
+      <p className="info-text">
+        Emojis help show emotion and intent in plain text. A short message can
+        feel warmer, lighter, or more playful when the right emoji is added.
+      </p>
+    </div>
+    <div className="info-item">
+      <p className="info-title">Useful for social media</p>
+      <p className="info-text">
+        People often use emojis in Instagram captions, TikTok comments, YouTube
+        descriptions, and Discord chats to improve readability and catch
+        attention faster.
+      </p>
+    </div>
+    <div className="info-item">
+      <p className="info-title">Fast visual communication</p>
+      <p className="info-text">
+        A single emoji can replace a short phrase, making communication quicker
+        and more visually engaging across different platforms.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className="section mt-24" id="categories-info">
+  <h2 className="section-title">Popular emoji categories</h2>
+  <div className="info-list">
+    <div className="info-item">
+      <p className="info-title">Smileys and people</p>
+      <p className="info-text">
+        Smileys are some of the most commonly used emojis because they help show
+        mood, reactions, and personality in everyday conversations.
+      </p>
+    </div>
+    <div className="info-item">
+      <p className="info-title">Hearts and symbols</p>
+      <p className="info-text">
+        Heart emojis and symbol emojis are popular for profiles, bios, romantic
+        messages, and decorative text formatting on social apps.
+      </p>
+    </div>
+    <div className="info-item">
+      <p className="info-title">Animals, food, and objects</p>
+      <p className="info-text">
+        These categories are often used in themed posts, storytelling, seasonal
+        content, and fun message combinations.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className="section mt-24" id="social-tips">
+  <h2 className="section-title">Tips for using emojis online</h2>
+  <div className="info-list">
+    <div className="info-item">
+      <p className="info-title">Use emojis naturally</p>
+      <p className="info-text">
+        Emojis work best when they support the message instead of replacing too
+        much text. A few well-placed emojis are usually more effective than too
+        many in one sentence.
+      </p>
+    </div>
+    <div className="info-item">
+      <p className="info-title">Check platform appearance</p>
+      <p className="info-text">
+        Emojis may look slightly different on Apple, Android, Windows, and web
+        browsers, so it is helpful to keep cross-platform rendering in mind.
+      </p>
+    </div>
+    <div className="info-item">
+      <p className="info-title">Copy from desktop more easily</p>
+      <p className="info-text">
+        Many users visit emoji tools on desktop because it is faster to search,
+        copy, and paste emojis into documents, websites, and social media posts.
+      </p>
+    </div>
+  </div>
+</div>
+
+          
           <div className="section mt-24" id="guide">
             <h2 className="section-title">How to use</h2>
             <div className="info-list">
@@ -356,6 +462,8 @@ export default function HomePage() {
             </div>
           </div>
 
+         
+          
           <div className="section mt-24" id="faq">
             <h2 className="section-title">FAQ</h2>
             <div className="info-list">
