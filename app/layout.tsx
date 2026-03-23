@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
-import "./globals.css";
-import type { Metadata } from "next";
+import "./globals.css"; 
 
 export const metadata = {
   title: "Emoji Copy Paste | Free Emoji Tool",
