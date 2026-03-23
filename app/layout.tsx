@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
-import "./globals.css"; 
+import "./globals.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Emoji Copy Paste | Free Emoji Tool",
-  description: "Copy and paste emojis instantly. Search, combine, and use emojis for Instagram, TikTok, Discord, and more.",
+  description:
+    "Copy and paste emojis instantly. Search, combine, and use emojis for Instagram, TikTok, Discord, and more.",
   keywords: [
     "emoji copy",
     "emoji paste",
     "emoji generator",
     "emoji combiner",
     "emoji kitchen",
-    "free emoji tool"
+    "free emoji tool",
   ],
   verification: {
     google: "UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4",
   },
 };
- 
 
 export default function RootLayout({
   children,
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"> 
+    <html lang="en">
       <body>
         <Script
           id="adsense-script"
@@ -55,11 +55,6 @@ export default function RootLayout({
 
           <div className="site-main">{children}</div>
         </div>
-        <Script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8170455252781139"
-  crossOrigin="anonymous"
-/>
       </body>
     </html>
   );
